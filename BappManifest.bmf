@@ -1,0 +1,13 @@
+Uuid: bd4915308bff422d8bcce5f2217c4cd2
+ExtensionType: 2
+Name: Match & Replace (Repeater)
+RepoName: match-and-replace-repeater
+ScreenVersion: 1.0.0
+SerialVersion: 1
+MinPlatformVersion: 2
+ProOnly: False
+Author: e1abrador
+ShortDescription: This extension adds a Match&Replace tab to Burp Suite's Repeater, allowing text replacement within a selected part of a request and maintaining changes across different views.
+EntryPoint: matchreplace.py
+BuildCommand: 
+SupportedProducts: Pro, Community
