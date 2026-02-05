@@ -3,10 +3,10 @@ ExtensionType: 2
 Name: Match & Replace (Repeater)
 RepoName: match-and-replace-repeater
 ScreenVersion: 1.0.0
-SerialVersion: 1
+SerialVersion: 2
 MinPlatformVersion: 2
 ProOnly: False
-Author: e1abrador
+Author: Eric Labrador Sainz
 ShortDescription: Quick, targeted match and replace functionality for Repeater requests.
 EntryPoint: matchreplace.py
 BuildCommand: 
