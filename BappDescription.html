@@ -1,23 +1,24 @@
-<p>The Match & Replace extension enhances the functionality of Burp Suites Repeater tool. Designed for Jython, it adds a specific Match & Replace tab for Repeater requests, permitting pinpoint text replacements within a selected section. Having these targeted alterations remain effective when shifting back to Pretty, Raw, or Hex view increases efficiency and versatility.</p>
+<p>
+    Match &amp; Replace (Repeater) adds a dedicated tab to Repeater editors that enables precise text replacements within HTTP
+    requests. This extension supports targeted modifications in specific request regions with regex capabilities and
+    maintains changes across Pretty, Raw, and Hex view modes.
+</p>
 
 <h2>Features</h2>
-
 <ul>
-<li>Integrates a Match & Replace tab within Repeaters Requests.</li>
-<li>Consists of two fields: a Match field and a Replace field, alongside an Apply Replace button.</li>
-<li>Enables replacements strictly within the selection &mdash; it wont alter anything if no area is selected.</li>
-<li>If no selection exists initially, it allows users to choose a certain part of the request to modify.</li>
+    <li>Replace text within selected regions, body, headers, URL, or the entire request</li>
+    <li>Regex support with case-insensitive matching options</li>
+    <li>Undo history with up to 10 previous request states</li>
+    <li>Preserves modifications when switching between editor view modes</li>
+    <li>Highlights the modified region after applying replacements</li>
 </ul>
 
 <h2>Usage</h2>
-
 <ol>
-<li>Select a segment of the request (headers or body) within Repeater.</li>
-<li>Open the Match & Replace tab. The request will appear in the native editor.</li>
-<li>Insert the text to be searched for in the Match field, and the replacement text in the Replace field.</li>
-<li>Click on Apply Replace.</li>
-<li>If no selection is available, it will prompt the user to designate a region.</li>
-<li>Only the instances within the chosen selection will be replaced.</li>
+    <li>In Repeater, navigate to the Match&amp;Replace tab</li>
+    <li>Enter the text to find in the Match field and replacement text in the Replace field</li>
+    <li>Select a scope from the dropdown: Selection (default), Body, Headers, URL, or Whole request</li>
+    <li>Optionally enable Regex or Ignore case checkboxes</li>
+    <li>Click Apply Replace to perform the replacement</li>
+    <li>Use Undo to revert changes or Clear History to reset the undo stack</li>
 </ol>
-
-<p>This extension is licensed as MIT -- meaning its free to use and modify, provided attribution is given.</p>
